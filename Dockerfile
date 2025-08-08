@@ -1,7 +1,13 @@
 FROM python:3.11
 
-ENV APP_HOME /app
-WORKDIR $APP_HOME
+# ENV APP_HOME /app
+# WORKDIR $APP_HOME
+
+# Diretório de trabalho
+WORKDIR /app
+
+# Copia os arquivos da aplicação
+COPY . .
 
 # quero copiar tudo para o caminho q tô apontando acima
 COPY . ./
