@@ -43,6 +43,20 @@ Para aprender mais sobre como desenvolver projetos de Data Science, AI, Criaçã
 ✉ contato@asimov.academy
 
 
+# Primeiro instale Python 3.11 se ainda não tiver
+sudo apt install python3.11 python3.11-venv python3.11-dev
+
+# Crie novo ambiente com Python 3.11
+python3.11 -m venv venv-py311
+source venv-py311/bin/activate
+
+# Agora instale numpy 1.23.5 e o restante das libs
+pip install numpy==1.23.5
+pip install plotly dash
+
+
 
 
 <p align="center">Copyright © 2022 Asimov Academy</p>
+# dash-sales-analyzer
+# dash-sales-analyzer
